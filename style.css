@@ -1,0 +1,65 @@
+body {
+    background-image: url('https://previews.123rf.com/images/belchonoksun/belchonoksun1512/belchonoksun151200053/49203529-endless-mathematical-texture-with-geometrical-figures-plots-and-equations-handwritten-with-chalk-on-.jpg');
+    background-repeat: no-repeat;
+}
+#container{
+    width: 450px;
+    height: 650px;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+    border-radius: 50px;
+    display: grid;
+}
+#display{
+    height: 90px;
+    width: 420px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+#calcDisplay{
+    font-size: 50px;
+}
+#row{
+    text-align: center;
+}
+button{
+    height: 90px;
+    width: 90px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 40px;
+    border: 1px solid white;
+    box-shadow: 0 9px whitesmoke;
+}
+button:active {
+    background-color:silver;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    transform: translateY(4px);
+  }
+#clear {
+    width: 200px;
+}
+#equals {
+    width: 200px;
+    background-color: rgb(204, 141, 7)
+}
+.operators{
+    background-color: rgb(204, 141, 7);
+    color: white;
+}
+.numbers{
+    background-color: rgb(56, 53, 53);
+    color: white;
+}
+button:hover{
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-offset: 15px;
+    font-weight: bold;
+    color: whitesmoke;
+}
