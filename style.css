@@ -1,13 +1,11 @@
 body {
     background-image: url('https://previews.123rf.com/images/belchonoksun/belchonoksun1512/belchonoksun151200053/49203529-endless-mathematical-texture-with-geometrical-figures-plots-and-equations-handwritten-with-chalk-on-.jpg');
-    background-repeat: no-repeat;
 }
 #container{
     width: 450px;
     height: 650px;
     background-color: grey;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto auto;
     border: 5px solid white;
     border-radius: 50px;
     display: grid;
